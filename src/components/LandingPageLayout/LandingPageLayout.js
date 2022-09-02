@@ -12,20 +12,17 @@ export function LandingPageLayout() {
   return (
     <div className="landing-container">
       <img src={logo} alt="redberry-logo" />
-      <div>
-        <img className="desktop-svg" src={desktop} alt="redberry-desktop-svg" />
-        <img
-          className="smartphone-svg"
-          src={smartphone}
-          alt="redberry-smartphone-svg"
-        />
-      </div>
-      <div className="landing-page-buttons">
+      {window.innerWidth >= 992 ? (
+        <img src={desktop} alt="redberry-landing-page" />
+      ) : (
+        <img src={smartphone} alt="redberry-landing-page" />
+      )}
+      <div className="landing-buttons">
         <Link to="/forms">
-          <button className="btn-landing route-link">ჩანაწერის დამატება</button>
+          <button className="btn-simple">ჩანაწერის დამატება</button>
         </Link>
         <Link to="/records">
-          <button className="btn-landing route-link">ჩანაწერების სია</button>
+          <button className="btn-simple">ჩანაწერების სია</button>
         </Link>
       </div>
     </div>

@@ -1,74 +1,13 @@
-@media (min-width: 1080px) and (max-width: 1920px) {
-  .landing-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100vh;
-  }
-
-  .smartphone-svg {
-    display: none;
-  }
-
-  .landing-page-buttons {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-  }
-
-  .btn-landing {
-    width: 287px;
-    height: 45px;
-    margin-bottom: 1rem;
-    background: #62a1eb;
-    border-radius: 8px;
-    border: none;
-  }
-
-  .route-link {
-    color: #fff;
-    text-decoration: none;
-    font-family: "Helvetica Neue";
-  }
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
 }
 
-@media (min-width: 390px) and (max-width: 884px) {
-  .landing-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100vh;
-  }
-
-  .desktop-svg {
-    display: none;
-  }
-
-  .smartphone-svg {
-    width: 268px;
-    height: 349px;
-  }
-
-  .landing-page-buttons {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-  }
-
-  .btn-landing {
-    width: 287px;
-    height: 45px;
-    margin-bottom: 1rem;
-    background: #62a1eb;
-    border-radius: 8px;
-    border: none;
-  }
-
-  .route-link {
-    color: #fff;
-    text-decoration: none;
-    font-family: "Helvetica Neue";
-  }
+.landing-buttons {
+  display: flex;
+  flex-direction: column;
 }
+

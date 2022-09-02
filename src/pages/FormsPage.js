@@ -1,9 +1,5 @@
-import React from "react";
+import { FormsPageLayout } from "../components/FormsPageLayout";
 
 export function FormsPage() {
-  return (
-    <div>
-      <h1>inputs</h1>
-    </div>
-  );
+  return <FormsPageLayout />;
 }

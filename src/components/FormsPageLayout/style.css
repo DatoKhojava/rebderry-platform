@@ -1,0 +1,178 @@
+.form-label {
+  font-weight: bold !important;
+}
+
+.btn-float {
+  float: right;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+@media (min-width: 1080px) and (max-width: 1920px) {
+  .forms-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+  }
+
+  .forms-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .form-container {
+    width: 60%;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 1.5rem;
+  }
+
+  .prev-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .form-label {
+    margin-top: 0.8rem;
+  }
+
+  .form-select {
+    margin-top: 1rem;
+  }
+
+  .form-select {
+    background-color: #eee !important;
+  }
+
+  .forms-title {
+    display: flex;
+  }
+
+  input.form-control {
+    border-color: #62a1eb !important;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 50px;
+    margin: 10px;
+  }
+
+  .form-title {
+    margin: 0px !important;
+    padding: 5px;
+  }
+
+  .active {
+    width: 100px;
+    height: 1px;
+    background-color: #000;
+  }
+
+  .form-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* NOTEBOOK FORM */
+
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed #62a1eb;
+    padding: 70px;
+  }
+
+  .btn-upload {
+    margin-top: 50px;
+  }
+
+  .form-checkbox {
+    display: flex;
+  }
+
+  .form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+  .forms-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+  }
+
+  .form-title {
+    display: none;
+  }
+
+  .active-title {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  .prev-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 1.5rem;
+  }
+
+  .form-label {
+    margin-top: 1.7rem;
+  }
+
+  .form-select {
+    background-color: #eee !important;
+    margin-top: 1.5rem;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  /* NOTEBOOK FORM */
+
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed #62a1eb;
+    padding: 50px;
+  }
+
+   .btn-upload {
+    margin-top: 30px;
+  }
+
+  .empty-label {
+    display: none;
+  }
+
+  .form-checkbox {
+    display: flex;
+  }
+}

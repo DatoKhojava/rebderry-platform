@@ -1,0 +1,8 @@
+* {
+  font-family: "HelveticaNeue";
+}
+
+.btn-primary {
+  background-color: #62a1eb !important;
+  border: none !important;
+}
