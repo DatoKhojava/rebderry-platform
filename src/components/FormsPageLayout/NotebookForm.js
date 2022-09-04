@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Form, Button, Row, Col, InputGroup } from "react-bootstrap";
+import { TitlesContext } from "../../Context";
 
 export function NotebookForm() {
   const [notebooks, setNotebooks] = useState([]);
@@ -14,6 +15,8 @@ export function NotebookForm() {
       .then((response) => response.json())
       .then((data) => setCpus(data.data));
   }, []);
+
+  const { setActive } = useContext(TitlesContext);
 
   return (
     <Form className="form-container">
@@ -141,7 +144,7 @@ export function NotebookForm() {
       </Form.Group>
 
       <div className="form-footer">
-        <h6>უკან</h6>
+        <h6 onClick={() => setActive(true)}>უკან</h6>
         <Button>დამახსოვრება</Button>
       </div>
     </Form>

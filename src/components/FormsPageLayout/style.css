@@ -10,6 +10,14 @@ input[type="file"] {
   display: none;
 }
 
+.error-color {
+  color: red !important;
+}
+
+.error-border-color {
+  border-color: red !important;
+}
+
 @media (min-width: 1080px) and (max-width: 1920px) {
   .forms-container {
     display: flex;
@@ -164,7 +172,7 @@ input[type="file"] {
     padding: 50px;
   }
 
-   .btn-upload {
+  .btn-upload {
     margin-top: 30px;
   }
 
